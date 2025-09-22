@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Task Tracker",
-  description: "Track your tasks",
+  description: "Track Your Tasks",
 };
 
 export default function RootLayout({
