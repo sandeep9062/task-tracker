@@ -65,8 +65,8 @@ export default function Home() {
 
               <p className="text-lg md:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0">
                 A delightful task management experience that makes productivity
-                effortless. Track, organize, and celebrate your achievements with
-                a friendly and engaging interface.
+                effortless. Track, organize, and celebrate your achievements
+                with a friendly and engaging interface.
               </p>
             </div>
 
@@ -118,7 +118,9 @@ export default function Home() {
                   key={idx}
                   className="text-center lg:text-left animate-fade-in-up delay-[100ms] group"
                 >
-                  <div className={`w-14 h-14 ${feature.bg} rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-4 shadow-md ring-1 ring-gray-100/50 group-hover:scale-110 transition-transform duration-300`}>
+                  <div
+                    className={`w-14 h-14 ${feature.bg} rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-4 shadow-md ring-1 ring-gray-100/50 group-hover:scale-110 transition-transform duration-300`}
+                  >
                     {feature.icon}
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">
