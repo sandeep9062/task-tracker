@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Monorepo for Task Tracker application",
   "main": "server/app.js",
+  "workspaces": [
+    "server",
+    "task-manager"
+  ],
   "scripts": {
-    "install": "npm install --prefix server && npm install --prefix task-manager",
-    "build": "npm run build --prefix task-manager",
-    "start": "node server/app.js",
+    "build": "npm run build -w task-manager",
+    "start": "npm start -w server",
     "render-build": "npm install && npm run build"
   },
   "repository": {
