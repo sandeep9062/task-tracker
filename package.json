@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "npm run build -w task-manager",
-    "start": "npm start -w server",
+    "start": "node server/app.js",
     "render-build": "npm install && npm run build"
   },
   "repository": {
