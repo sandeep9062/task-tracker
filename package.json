@@ -1,0 +1,24 @@
+{
+  "name": "task-tracker-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for Task Tracker application",
+  "main": "server/app.js",
+  "scripts": {
+    "install": "npm install --prefix server && npm install --prefix task-manager",
+    "build": "npm run build --prefix task-manager",
+    "start": "node server/app.js",
+    "render-build": "npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep9062/task-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep9062/task-tracker/issues"
+  },
+  "homepage": "https://github.com/sandeep9062/task-tracker#readme",
+  "dependencies": {}
+}
